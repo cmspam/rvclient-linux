@@ -86,7 +86,7 @@ the way you would a password.
   appearing as a guest. It is passed to the game through the Steam launch
   options, which is the same way the launcher passes it on Windows.
 - `WINEDLLOVERRIDES="dxgi=n,b"` in those options is what lets the client load
-  its own `dxgi.dll`. Without it the voice and text chat features are missing.
+  its own `dxgi.dll`. Without it, many features will not work.
 - The tool talks to the same backend the rVclient launcher uses, so the server
   list and player counts are the live ones.
 
