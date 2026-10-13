@@ -67,6 +67,12 @@ Run the tool again:
 Pick a different server and paste the new launch options into Steam. Pressing
 Enter at the server question keeps the one you already have.
 
+The server list starts with **Auto**, which is number 0. Auto leaves the choice
+to the backend, which is how the Windows launcher behaves: it places you
+according to your region and what is running at the time. Picking a named server
+instead pins your region to that one, and gives the game its address to fall
+back on.
+
 ## What it writes
 
 | File | What it is |
